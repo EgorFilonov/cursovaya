@@ -1,0 +1,43 @@
+# Автоопределение текстовых файлов и единые перевод строки в репозитории.
+* text=auto eol=lf
+
+# Исходники и документация проекта — текст.
+*.cs text diff=csharp
+*.csproj text
+*.sln text
+*.slnx text
+*.props text
+*.targets text
+*.json text
+*.yml text
+*.yaml text
+*.md text
+*.editorconfig text
+
+# Бинарные форматы. Документы пояснительной записки (MS Word) не сливаются как текст.
+*.docx binary
+*.doc binary
+*.dotx binary
+*.dot binary
+*.xlsx binary
+*.xls binary
+*.pptx binary
+*.ppt binary
+*.pdf binary
+
+# Изображения и архивы
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.zip binary
+*.7z binary
+*.nupkg binary
+*.snupkg binary
+
+# Результаты сборки .NET, если такой файл всё же попал в индекс
+*.dll binary
+*.exe binary
+*.pdb binary
