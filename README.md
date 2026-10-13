@@ -16,6 +16,7 @@
 ## Технологии 
 - python 
 - asyncio
+- asyncpg
 - psql 
 - docker
 - aiogram
